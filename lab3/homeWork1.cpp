@@ -10,4 +10,5 @@ int main(){
     if (x < 0 && y > 0) { std::cout << "Четверть - 2" << std::endl;}
     if (x < 0 && y < 0) { std::cout << "Четверть - 3" << std::endl;}
     if (x > 0 && y < 0) { std::cout << "Четверть - 4" << std::endl;}
+    if (x == 0 || y == 0) { std::cout << "Не в четвертях" << std::endl;}
 }
