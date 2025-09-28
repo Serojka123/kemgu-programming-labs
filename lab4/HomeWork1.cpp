@@ -3,6 +3,8 @@
 
 int main(){
 
+    setlocale(LC_ALL, "ru_RU.UTF-8");
+
     float a,b,c,res;
     std::cout << "Введите а: ";
     std::cin >> a;
