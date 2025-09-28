@@ -43,13 +43,13 @@ int main(){
         return 0;
     } 
     if (D == 0){
-        x1 = -b/2*a;
+        x1 = -b/(2*a);
         std::cout << "This equation has one real root: x = " << x1 << std::endl;
         return 0;
     } 
     else{
-        x1 = (-b+sqrt(D))/2*a;
-        x2 = (-b-sqrt(D))/2*a;
-        std::cout << "This equation has two real roots:x_1 = " << x1 << "x_2=" << x2 << std::endl;
+        x1 = (-b+sqrt(D))/(2*a);
+        x2 = (-b-sqrt(D))/(2*a);
+        std::cout << "This equation has two real roots:  x_1 = " << x1 << ";  x_2=" << x2 << std::endl;
     }
 }
