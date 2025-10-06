@@ -1,0 +1,16 @@
+# Compiled files
+*.exe
+*.ilk
+*.pdb
+*.obj
+*.o
+*.out
+*.docx
+
+# Build directories
+/build/
+/obj/
+/bin/
+
+# VS Code
+.vscode/
