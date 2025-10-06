@@ -15,6 +15,6 @@ int main(){
         // std::cout << sum << std::endl;
     }
 
-    std::cout << "Суммы цифр числа " << startA << ": " << sum << std::endl;
+    std::cout << "Сумма цифр числа " << startA << ": " << sum << std::endl;
 
 }
