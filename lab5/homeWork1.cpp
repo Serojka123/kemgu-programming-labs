@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 
 int main(){
     setlocale(LC_ALL, "ru_RU.UTF-8");
