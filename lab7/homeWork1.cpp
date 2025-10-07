@@ -14,6 +14,7 @@ int main(){
 
         sum += pow(-1,k)*pow(x-3, k)/k;
 
-        std::cout << sum << std::endl;
+        
     }
+    std::cout << sum << std::endl;
 }
