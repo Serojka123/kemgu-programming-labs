@@ -6,7 +6,7 @@ int main(){
     std::cout << "n = ";
     std::cin >> n;
 
-    int min, minN, i = 0;
+    int index, minN, i = 0;
 
     while (i != n){
         i++;
@@ -19,9 +19,9 @@ int main(){
 
         if (minN > current || i == 1){
             minN = current;
-            min = i;
+            index = i;
         }
     }
     std::cout << "Минимальное: "<< minN << std::endl;
-    std::cout << "Номер минимального: "<< min << std::endl;
+    std::cout << "Номер минимального: "<< index << std::endl;
 }
