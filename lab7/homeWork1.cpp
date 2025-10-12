@@ -25,6 +25,7 @@ int main(){
                 
             }
             std::cout << sum << std::endl;
+            break;
         }
 
         case 2:{
@@ -36,6 +37,7 @@ int main(){
                 
             }
             std::cout << sum << std::endl;
+            break;
         }
 
         case 3:{
@@ -47,6 +49,11 @@ int main(){
             }
             while (n >= k);
             std::cout << sum << std::endl;
+            break;
+        }
+        default:{
+            std::cout << "Ошибка" << std::endl;
+            break;
         }
     }
     
