@@ -14,11 +14,10 @@ int main(){
     std::cin >> select; 
     std::cout << "\n";
 
-    double sum = 0;
     switch (select){
         case 1:{
             double sum = 0;
-            for (int k = 2; n >= k; k++){
+            for (int k = 1; n >= k; k++){
 
                 sum += pow(-1,k)*pow(x-3, k)/k;
 
@@ -30,7 +29,7 @@ int main(){
 
         case 2:{
             double sum = 0;
-            int k = 2; 
+            int k = 1; 
             while (n >= k){
                 sum += pow(-1,k)*pow(x-3, k)/k;
                 k++;
@@ -42,7 +41,7 @@ int main(){
 
         case 3:{
             double sum = 0;
-            int k = 2; 
+            int k = 1; 
             do{
                 sum += pow(-1,k)*pow(x-3, k)/k;
                 k++;
