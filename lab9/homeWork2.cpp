@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 
 
 float P = 3.14159;
