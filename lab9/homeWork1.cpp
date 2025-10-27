@@ -30,8 +30,23 @@ int main(){
         return 0;
     }
 
+    if ((lenNum(x) == lenNum(y)) && (lenNum(y) == lenNum(z))){
+        std::cout << "Все числа имеют одинаковую длину\n";
+        return 0;
+    }
+
+    if ((lenNum(x) == lenNum(y)) && (lenNum(x)  > lenNum(z))){
+        std::cout << "Первое и второе числа имеют одинаковую наибольшую длину\n";
+        return 0;
+    }
+    
+
     if (lenNum(x) > lenNum(y)){
-        if (lenNum(x) > lenNum (z)){
+        if (lenNum(x) == lenNum(z)){
+            std::cout << "Первое и третье числа имеют одинаковую наибольшую длину\n";
+            return 0;
+        } 
+        else if (lenNum(x) > lenNum (z)){
             std::cout << "Первое число имеет больше всего цифр\n";
         }
         else{
@@ -39,7 +54,12 @@ int main(){
         }
     }
     else{
-        if (lenNum(y) > lenNum(z)){
+        if (lenNum(y) == lenNum(z)){
+            std::cout << "Второе и третье числа имеют одинаковую наибольшую длину\n";
+            return 0;
+        } 
+        else if (lenNum(y) > lenNum(z)){
+            
             std::cout << "Второе число имеет больше всего цифр\n";
         }
         else{
