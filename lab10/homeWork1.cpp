@@ -31,6 +31,9 @@ float sumDoWhile(int n, int x){
 
 
 int main(){
+
+    setlocale(LC_ALL, "ru_RU.UTF-8");
+    
     int n = 0;
     std::cout << "n = ";
     std::cin >> n;

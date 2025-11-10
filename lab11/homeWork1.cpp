@@ -24,6 +24,8 @@ float squareTriangle(int x1, int x2 , int x3, int y1, int y2, int y3){
 }
 
 int main(){
+    setlocale(LC_ALL, "ru_RU.UTF-8");
+    
     int x1, x2 , x3, y1, y2, y3;
     std::cout << "x1 = ";
     std::cin >> x1;

@@ -1,6 +1,6 @@
 #include <iostream>
 
-void exp(int a, int b){
+void exp(float a, float b){
     if (a == 2){
         std::cout << "division by 0" << std::endl;
     }
@@ -11,7 +11,9 @@ void exp(int a, int b){
 }
 
 int main(){
-    int a = 0, b = 0;
+
+
+    float a = 0.0, b = 0.0;
     std::cout << "a = ";
     std::cin >> a;
     std::cout << "b = ";
